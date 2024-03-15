@@ -1,0 +1,68 @@
+
+                 /* skill */
+ 
+ 
+ h2.title.additional-class {
+  padding: 20px 5%;
+  font-weight: bold;
+  font-size: 80px;
+ 
+  
+}
+ 
+ 
+
+
+/* Styles for progress bars */
+.progress-bar-container {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #f0f0f0; /* Background color of the progress bar container */
+  border-radius: 5px;
+  margin-bottom: 10px; /* Bottom margin for spacing between progress bars */
+}
+
+.progress-bar-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  
+}
+
+.progress-bar-foreground {
+  position: absolute;
+  top: px;
+  left: 0;
+  height: 100%;
+  background-color: red; /* Color of the filled part */
+  border-radius: 5px;
+}
+
+/* Styles for skills */
+.skill {
+  margin-bottom: 5px; /* Bottom margin for spacing between skills */
+  
+}
+
+
+.skill-level {
+  font-weight: bold; /* Bold font for skill levels */
+  color: white;
+  padding-left: 95%;
+  
+}
+
+/* Styles for container layout */
+.skills-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px; /* Adjust the value as needed */
+}
+
+.left-skills,
+.right-skills {
+  flex-basis: calc(45% - 45px); /* Adjust as needed based on your layout preference */
+}
